@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+     >
+
+    <item
+       
+        android:id="@+id/navigation_profugos"
+        android:icon="@drawable/requisitoriado"
+        android:title="@string/title_profugos" />
+
+    <item
+        android:id="@+id/navigation_capturados"
+        android:icon="@drawable/capturado"
+        android:title="@string/title_capturados" />
+
+    <item
+        android:id="@+id/navigation_busquedas"
+        android:icon="@drawable/search"
+        android:title="@string/title_busqueda" />
+
+
+</menu>

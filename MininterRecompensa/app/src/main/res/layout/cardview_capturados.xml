@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvCapturados"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:orientation="horizontal"
+    card_view:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvApellidosNombresCapturado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="Alan Garcia Perez"
+                android:textColor="@color/colorTextoCardView"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView
+                        android:id="@+id/ivFotoCapturado"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:background="@drawable/bordenegro"
+                        android:padding="1dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/c" />
+
+                    <TextView
+                        android:id="@+id/tvLetraCapturado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="CAPTURADO"
+                        android:textColor="#f44336"
+                        android:rotation="-45"
+                        android:textSize="21dp"/>
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvDelito"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="Delito:"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTextoCardView"/>
+
+                    <TextView
+                        android:id="@+id/tvDelitoCapturado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+
+                        android:text="Robo a mano armada , corrupcion defuncionarios"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tvObservaciones"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/colorTextoCardView"
+                        android:text="Observaciones:"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvObservacionesCapturado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="El sujeto esta armado, de caracter introvertido"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tvRecompensa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/colorTextoCardView"
+                        android:text="Recompensa:"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvRecompensaCapturado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:text="S/ 10000.00"
+                        android:textColor="@color/colorTextoCardView"
+                        android:textSize="16dp" />
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

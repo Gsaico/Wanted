@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nextsoftwaresolutions.vicom.mininterrecompensa.Fragmentos.Busqueda.BusquedaResultadosFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <include layout="@layout/recyclerview_busqueda_resultados" />
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBarBusquedaResultados"
+        android:layout_gravity="center"
+        />
+
+</FrameLayout>
